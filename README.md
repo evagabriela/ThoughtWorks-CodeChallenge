@@ -52,7 +52,8 @@ Lets assume that we deployed a robot at position X,Y which is the same as to say
 
 ###Important Assumption:
 
-####A rover can't continue off the bounds of the plateau:  For example if we pass a command string "MM" for a rover that is positioned at X,Y(0,0) facing North.  Then the final destination of the rover will be X,Y(0,2)
+####*A rover can't continue off the bounds of the plateau
+####*If we pass a command string "MM" for a rover that is positioned at X,Y(0,0) facing North.  Then the final destination of the rover will be X,Y(0,2)
 
 Breakdown to code following the Object Oriented Way:
 
@@ -61,6 +62,5 @@ What are the states (classes) that I am going to use?
   + Plateau
   + Navigation_controller 
 
-What are the behaviors (methods)that I am going to use? 
-
+What are the behaviors (methods) for each state? 
   TBD
