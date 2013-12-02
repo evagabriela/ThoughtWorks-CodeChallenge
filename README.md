@@ -1,4 +1,4 @@
-#Status: Completed and submited for review
+#Status: Completed and submitted for review
 
 ##To get started:
 
