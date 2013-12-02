@@ -98,18 +98,18 @@ What are the states (classes) that I am going to use?
 
 What are the behaviors (methods) for each state? 
   Rover has the following behaviours:
-    * move
-    * single_move(move)
-    * rotate_left
-    * rotate_right
-    * rotate_forward
-    * initial_position
-    * ending_position
-    * within_limits?
-    * outside_grid(inst)
+    * Move
+    * Single_move(move)
+    * Rotate_left
+    * Rotate_right
+    * Rotate_forward
+    * Initial_position
+    * Ending_position
+    * Within_limits?
+    * Outside_grid(inst)
 
   Plateau has the following behavious: 
-    * add_rover(rover)
-    * within_limits(pos_a, pos_b)
+    * Add_rover(rover)
+    * Within_limits(pos_a, pos_b)
 
 
