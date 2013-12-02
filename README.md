@@ -97,7 +97,7 @@ What are the states (classes) that I am going to use?
   * Navigation_controller 
 
 What are the behaviors (methods) for each state? 
-  Rover has the following behaviours:
+  * Rover has the following behaviours:
     * Move
     * Single_move(move)
     * Rotate_left
@@ -108,7 +108,7 @@ What are the behaviors (methods) for each state?
     * Within_limits?
     * Outside_grid(inst)
 
-  Plateau has the following behavious: 
+  * Plateau has the following behavious: 
     * Add_rover(rover)
     * Within_limits(pos_a, pos_b)
 
