@@ -14,14 +14,14 @@ describe Plateau do
   end
 
 
-  describe "#within_limits" do
+  describe "#within_limits?" do
     it "should return true if an object is within limits" do
-      expect(plateau.within_limits(1,2)).to be_true  
+      expect(plateau.within_limits?(1,2)).to be_true  
     end
     it "should return false if an object is withing limits" do
-      expect(plateau.within_limits(7,7)).to be_false
-      expect(plateau.within_limits(7,2)).to be_false
-      expect(plateau.within_limits(3,7)).to be_false
+      expect(plateau.within_limits?(7,7)).to be_false
+      expect(plateau.within_limits?(7,2)).to be_false
+      expect(plateau.within_limits?(3,7)).to be_false
     end
   end
 end
