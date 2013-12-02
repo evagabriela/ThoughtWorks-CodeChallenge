@@ -26,6 +26,8 @@ Enjoy!
   Expected Output:
   1 3 N
   5 1 E
+  
+![image](https://s3-us-west-1.amazonaws.com/gabyjobapplication/Screen+Shot+2013-12-02+at+2.52.43+PM.png)
 
 ##PROBLEM DESCRIPTION: MARS ROVERS
  
@@ -87,24 +89,24 @@ Lets assume that we deployed a robot at position X,Y which is the same as to say
 Breakdown to code following the Object Oriented Way:
 
 What are the states (classes) that I am going to use? 
-  + Rover
-  + Plateau
-  + Navigation_controller 
+  * Rover
+  * Plateau
+  * Navigation_controller 
 
 What are the behaviors (methods) for each state? 
   Rover has the following behaviours:
-    + move
-    + single_move(move)
-    + rotate_left
-    + rotate_right
-    + rotate_forward
-    + initial_position
-    + ending_position
-    + within_limits?
-    + outside_grid(inst)
+    * move
+    * single_move(move)
+    * rotate_left
+    * rotate_right
+    * rotate_forward
+    * initial_position
+    * ending_position
+    * within_limits?
+    * outside_grid(inst)
 
   Plateau has the following behavious: 
-    + add_rover(rover)
-    + within_limits(pos_a, pos_b)
+    * add_rover(rover)
+    * within_limits(pos_a, pos_b)
 
 
