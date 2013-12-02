@@ -77,10 +77,10 @@ Expected Output:
 
 Lets assume that we deployed a robot at position X,Y which is the same as to say (0,0) North, here below are the detail scenarios that could happen: 
 
-1) Increment ++Y  => Any move from point (X,Y) and the rover facing towards North 
-2) Decremement --Y => Any move from point (X,Y) and the rover facing towards South 
-3) Increment ++X => Any move from point (X,Y) and the rover facing towards East 
-4) Decrement --X => Any move from point (X,Y) and the rover facing towards West 
+1. Increment ++Y  => Any move from point (X,Y) and the rover facing towards North 
+2. Decremement --Y => Any move from point (X,Y) and the rover facing towards South 
+3. Increment ++X => Any move from point (X,Y) and the rover facing towards East 
+4. Decrement --X => Any move from point (X,Y) and the rover facing towards West 
 
   + I am visualizing a XY graph where Y has the North and South coordinates and X has the East and West coordinates
 
