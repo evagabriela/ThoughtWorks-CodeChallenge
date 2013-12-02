@@ -3,11 +3,11 @@ require_relative 'plateau'
 
 class Rover
   attr_accessor :plateau
-  attr_reader :x, :y, :direction
+  attr_reader :pos_x, :pos_y, :direction
 
-  def initialize(x,y,direction)
-    @pos_x = x 
-    @pos_y = y
+  def initialize(pos_x,pos_y,direction)
+    @pos_x = pos_x 
+    @pos_y = pos_y
     @direction = direction
   end
 
