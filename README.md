@@ -18,15 +18,16 @@ Enjoy!
  
   Test Input:
   * 5 5
-  *1 2 N
-  *LMLMLMLMM
-  *3 3 E
-  *MMRMMRMRRM
+  * 1 2 N
+  * LMLMLMLMM
+  * 3 3 E
+  * MMRMMRMRRM
    
   Expected Output:
-  *1 3 N
-  *5 1 E
+  * 1 3 N
+  * 5 1 E
   
+Image of my results: 
 ![image](https://s3-us-west-1.amazonaws.com/gabyjobapplication/Screen+Shot+2013-12-02+at+2.52.43+PM.png)
 
 ##PROBLEM DESCRIPTION: MARS ROVERS
