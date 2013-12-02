@@ -1,4 +1,18 @@
-#Status: Work in Progress
+#Status: Complete and submited
+
+##To get started:
+
+1) Clone this git repo to your computer
+
+2) bundle install
+
+3) to run the tests type: rspec spec
+
+4) To run the program, type:
+
+ruby navigation_controller.rb
+
+Enjoy!
 
 ##PROBLEM DESCRIPTION: MARS ROVERS
  
@@ -65,4 +79,19 @@ What are the states (classes) that I am going to use?
   + Navigation_controller 
 
 What are the behaviors (methods) for each state? 
-  TBD
+  Rover has the following behaviours:
+    + move
+    + single_move(move)
+    + rotate_left
+    + rotate_right
+    + rotate_forward
+    + initial_position
+    + ending_position
+    + within_limits?
+    + outside_grid(inst)
+
+  Plateau has the following behavious: 
+    + add_rover(rover)
+    + within_limits(pos_a, pos_b)
+
+

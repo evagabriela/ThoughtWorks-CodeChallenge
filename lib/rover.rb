@@ -17,6 +17,10 @@ class Rover
 
   def move(position)
     position.split('').each do |m|
+      unless within_limits?
+        outside_grid
+        break
+      end
       single_move(m)
     end
   end
@@ -65,5 +69,13 @@ class Rover
 
   def ending_position
     p "The rover's ending position is: #{self}"
+  end
+
+  def  within_limits?
+    plateau.within_limits?(@pos_x,@pos_y)
+  end
+
+  def outside_grid(inst)
+    p "Looks like the rover is trying to go outside of the grid!"
   end
 end

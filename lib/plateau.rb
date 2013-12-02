@@ -14,4 +14,8 @@ class Plateau
     rover.plateau = self
   end
 
+  def within_limits(pos_a, pos_b)
+    pos_a <= @x_limit && pos_b <= @y_limit
+  end
+
 end 

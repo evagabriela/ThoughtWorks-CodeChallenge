@@ -48,7 +48,15 @@ describe Rover do
 
   describe "#move" do
     it "should make a single move" do 
+      rover.stub(:within_limits?).and_return(true)
       rover.should_receive(:single_move)
+      rover.move("M")
+    end
+
+    it "should not move if it is out of the plateau's limits" do
+      rover.stub(:within_limits?).and_return(false)
+      rover.should_receive(:outside_grid)
+      rover.should_not_receive(:single_move)
       rover.move("M")
     end
   end
@@ -70,5 +78,15 @@ describe Rover do
     end
   end
 
+  describe "#within_limits?" do 
+    let(:plateau) {double(:plateau, x:2, y:3)}
+    let(:rover) { Rover.new(7,7,"S")}
+    before {rover.stub(:plateau).and_return(plateau)}
+
+    it "calls the plateau.within_limits? method" do
+      plateau.should_receive(:within_limits?).with(7,7)
+      rover.within_limits?
+    end
+  end
 
 end
